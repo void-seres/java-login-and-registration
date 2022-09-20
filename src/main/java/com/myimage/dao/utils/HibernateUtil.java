@@ -1,4 +1,4 @@
-package com.myimage.utils;
+package com.myimage.dao.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

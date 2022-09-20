@@ -1,4 +1,4 @@
-package com.myimage.dao.model;
+package com.myimage.model;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.MapsId;

@@ -1,4 +1,4 @@
-package com.myimage.dao.model;
+package com.myimage.model;
 
 import java.util.HashSet;
 import java.util.Set;

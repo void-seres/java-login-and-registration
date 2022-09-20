@@ -1,9 +1,10 @@
-package com.myimage;
+package com.myimage.dao;
 
+import com.myimage.dao.ProfileDao;
 import com.myimage.model.Profile;
 import org.hibernate.Session;
 
-public class ProfileDaoImpl implements ProfileDao{
+public class ProfileDaoImpl implements ProfileDao {
     private Session session;
     public void setSession(Session session){
         this.session=session;

@@ -1,4 +1,4 @@
-package com.myimage.utils;
+package com.myimage.dao.utils;
 import com.myimage.dao.ProfileDao;
 import com.myimage.dao.ProfileDaoImpl;
 

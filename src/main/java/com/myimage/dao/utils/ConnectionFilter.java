@@ -1,4 +1,4 @@
-package com.myimage.utils;
+package com.myimage.dao.utils;
 
 import java.io.IOException;
 import javax.servlet.Filter;
