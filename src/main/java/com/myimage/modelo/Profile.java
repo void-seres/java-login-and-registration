@@ -1,4 +1,4 @@
-package com.myimage.model;
+package com.myimage.modelo;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.MapsId;

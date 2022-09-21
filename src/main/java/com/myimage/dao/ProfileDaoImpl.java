@@ -1,7 +1,6 @@
 package com.myimage.dao;
 
-import com.myimage.dao.ProfileDao;
-import com.myimage.model.Profile;
+import com.myimage.modelo.Profile;
 import org.hibernate.Session;
 
 public class ProfileDaoImpl implements ProfileDao {

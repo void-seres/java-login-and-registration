@@ -8,6 +8,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+import com.myimage.dao.utils.HibernateUtil;
 import org.hibernate.SessionFactory;
 
 public class ConectionFilter implements Filter {

@@ -10,7 +10,7 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="show_sql">true</property>
         <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
-        <mapping class="com.myimage.model.User"/>
-        <mapping class="com.myimage.model.Profile"/>
+        <mapping class="com.myimage.modelo.User"/>
+        <mapping class="com.myimage.modelo.Profile"/>
     </session-factory>
 </hibernate-configuration>
