@@ -1,4 +1,4 @@
-package com.myimage.utils;
+package com.softarum.svsa.dao.utils;
 
 public enum Role {
 

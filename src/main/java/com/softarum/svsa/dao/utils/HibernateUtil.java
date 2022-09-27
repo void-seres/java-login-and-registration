@@ -1,4 +1,4 @@
-package com.myimage.dao.utils;
+package com.softarum.svsa.dao.utils;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

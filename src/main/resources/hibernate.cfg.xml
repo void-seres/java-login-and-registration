@@ -11,6 +11,6 @@
         <property name="show_sql">true</property>
         <property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
         <mapping class="com.myimage.modelo.User"/>
-        <mapping class="com.myimage.modelo.Profile"/>
+        <mapping class="com.softarum.svsa.modelo.Profile"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,4 +1,4 @@
-package com.myimage.utils.security;
+package com.softarum.svsa.dao.utils.security;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

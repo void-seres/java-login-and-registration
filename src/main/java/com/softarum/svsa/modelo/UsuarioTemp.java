@@ -1,18 +1,21 @@
-package com.myimage.modelo;
+package com.softarum.svsa.modelo;
+
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 
-import org.hibernate.annotations.NaturalId;
-import
+@Setter
+@Getter
 @Entity
-@Table(name="usuario_temp")//nome do banco de dados onde estarão persistidos os objetos de usuario
+@Table(name="usuario_temp")//nome da tabela onde estarão persistidos os objetos de usuario
 @SequenceGenerator(name = "seq", sequenceName = "seq_userTemp", allocationSize = 1, initialValue = 1)
-public class Usuario {
+public class UsuarioTemp {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long codigo;
-    @NaturalId//define que a chave id do usuario é não nula no banco de dados
     private String login;
     private String senha;
+    private String validacao;
 
 }
